@@ -4,7 +4,6 @@ import GameBoard from "./Components/GameBoard";
 import Log from "./Components/Log";
 import { WINNING_COMBINATIONS } from "./Winning-combinations";
 import GameOver from "./Components/GameOver";
-import DataGrid from "./Components/DataGrid";
 
 const initialGameBoard = [
   [null, null, null],
@@ -86,7 +85,6 @@ const App = () => {
 
   return (
     <main>
-      <DataGrid />
       <div id="game-container">
         <ol id="players" className="highlight-player">
           <Player
